@@ -55,4 +55,9 @@ class list
         nodeBaru->next = current;
         previous->next = nodeBaru;
     }
+
+    bool ListEmpty()
+    {
+        return (START == NULL);
+    }
 };
